@@ -118,21 +118,22 @@ nav {
   color: var(--primary-color);
 }
 
-.letter-qr {
+.letter-now {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 35rem;
-  line-height: 35rem;
+  font-size: 25rem;
+  line-height: 25rem;
   font-weight: 900;
+  letter-spacing: -60px;
   color: var(--primary-color);
 }
 
 .container img {
   position: absolute;
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -148,18 +149,20 @@ nav {
 }
 
 .container .text__left {
+  letter-spacing: -10px;
   color: var(--text-dark);
 }
 .container .text__right {
+  letter-spacing: -10px;
   color: var(--white);
 }
 
 .text__left {
-  transform: translate(calc(-50% - 450px), -35%);
+  transform: translate(calc(-50% - 480px), -35%);
 }
 
 .text__right {
-  transform: translate(calc(-50% + 450px), -35%);
+  transform: translate(calc(-50% + 400px), -35%);
 }
 
 .container .generate-now {
