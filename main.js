@@ -30,3 +30,14 @@ ScrollReveal().reveal(".container .generate-now", {
   duration: 2500,
   delay: 2500,
 });
+
+ScrollReveal().reveal(".container .download", {
+  ...scrollRevealOption,
+  origin: "top",
+  delay: 3000,
+});
+ScrollReveal().reveal(".container .templates", {
+  ...scrollRevealOption,
+  origin: "bottom",
+  delay: 3000,
+});
