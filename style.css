@@ -279,3 +279,33 @@ nav {
 .footer__links a:hover {
   color: var(--primary-color);
 }
+
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+  .letter-now {
+    font-size: 23rem;
+    line-height: 23rem;
+    font-weight: 800;
+  }
+}
+@media only screen and (max-width: 430px) {
+  /* For mobile phones: */
+  .letter-now {
+    font-size: 14rem;
+    line-height: 14rem;
+    font-weight: 600;
+    letter-spacing: -40px;
+  }
+  .container img {
+    max-width: 120px;
+  }
+
+  .feature-2 {
+    color: var(--white);
+    transform: translate(calc(50% + 150px), calc(-50% - 200px));
+  }
+  .feature-4 {
+    color: var(--white);
+    transform: translate(calc(50% + 150px), calc(-50% + 200px));
+  }
+}
