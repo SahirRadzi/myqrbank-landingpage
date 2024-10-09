@@ -41,3 +41,20 @@ ScrollReveal().reveal(".container .templates", {
   origin: "bottom",
   delay: 3000,
 });
+
+ScrollReveal().reveal(".container .feature-1", {
+  duration: 3000,
+  delay: 3000,
+});
+ScrollReveal().reveal(".container .feature-2", {
+  duration: 3000,
+  delay: 3000,
+});
+ScrollReveal().reveal(".container .feature-3", {
+  duration: 3000,
+  delay: 3000,
+});
+ScrollReveal().reveal(".container .feature-4", {
+  duration: 3000,
+  delay: 3000,
+});

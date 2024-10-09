@@ -193,6 +193,7 @@ nav {
   color: var(--white);
   background-color: transparent;
   border: 1px solid var(--white);
+  opacity: 45%;
 }
 
 .container .templates {
@@ -208,4 +209,73 @@ nav {
   color: var(--white);
   background-color: transparent;
   border: 1px solid var(--white);
+  opacity: 45%;
+}
+
+.container h5 {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.container h5::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100px;
+  top: 50%;
+}
+
+.feature-1 {
+  color: var(--text-dark);
+  transform: translate(calc(50% - 100px), calc(-50% - 200px));
+}
+.feature-2 {
+  color: var(--white);
+  transform: translate(calc(50% + 650px), calc(-50% - 200px));
+}
+.feature-3 {
+  color: var(--text-dark);
+  transform: translate(calc(50% - 100px), calc(-50% + 200px));
+}
+.feature-4 {
+  color: var(--white);
+  transform: translate(calc(50% + 650px), calc(-50% + 200px));
+}
+
+.footer {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  padding-inline: 1rem;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer__links a:hover {
+  color: var(--primary-color);
 }
